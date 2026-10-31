@@ -4,5 +4,7 @@ class Usuarios
     {
     }
 
-    public static void 
+    public static void Listar()
+    {
+    }
 }
