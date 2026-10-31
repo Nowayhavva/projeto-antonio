@@ -1,0 +1,15 @@
+C:\Workspace\projeto-antonio\MeuSistema\bin\Debug\net10.0\MeuSistema.exe
+C:\Workspace\projeto-antonio\MeuSistema\bin\Debug\net10.0\MeuSistema.deps.json
+C:\Workspace\projeto-antonio\MeuSistema\bin\Debug\net10.0\MeuSistema.runtimeconfig.json
+C:\Workspace\projeto-antonio\MeuSistema\bin\Debug\net10.0\MeuSistema.dll
+C:\Workspace\projeto-antonio\MeuSistema\bin\Debug\net10.0\MeuSistema.pdb
+C:\Workspace\projeto-antonio\MeuSistema\obj\Debug\net10.0\MeuSistema.GeneratedMSBuildEditorConfig.editorconfig
+C:\Workspace\projeto-antonio\MeuSistema\obj\Debug\net10.0\MeuSistema.AssemblyInfoInputs.cache
+C:\Workspace\projeto-antonio\MeuSistema\obj\Debug\net10.0\MeuSistema.AssemblyInfo.cs
+C:\Workspace\projeto-antonio\MeuSistema\obj\Debug\net10.0\MeuSistema.csproj.CoreCompileInputs.cache
+C:\Workspace\projeto-antonio\MeuSistema\obj\Debug\net10.0\MeuSistema.sourcelink.json
+C:\Workspace\projeto-antonio\MeuSistema\obj\Debug\net10.0\MeuSistema.dll
+C:\Workspace\projeto-antonio\MeuSistema\obj\Debug\net10.0\refint\MeuSistema.dll
+C:\Workspace\projeto-antonio\MeuSistema\obj\Debug\net10.0\MeuSistema.pdb
+C:\Workspace\projeto-antonio\MeuSistema\obj\Debug\net10.0\MeuSistema.genruntimeconfig.cache
+C:\Workspace\projeto-antonio\MeuSistema\obj\Debug\net10.0\ref\MeuSistema.dll
