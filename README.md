@@ -17,10 +17,10 @@ Aplicação de console desenvolvida em C# para cadastro, consulta, remoção e a
 ## Funcionalidades
 
 - [x] Cadastrar usuários
-- [ ] Listar usuários
-- [ ] Buscar usuários
-- [ ] Remover usuários
-- [ ] Login com usuário e senha
+- [x] Listar usuários
+- [x] Buscar usuários
+- [x] Remover usuários
+- [x] Login com usuário e senha
 
 ---
 
