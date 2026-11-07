@@ -38,7 +38,7 @@ class Usuarios
         }
         for (int i = 0; i < nomes.Count; i++)
         {
-            Console.WriteLine ( (i + 1) + "," + nomes[i] + "(" + logins[i] + ")");
+            Console.WriteLine ( (i + 1) + ", " + nomes[i] + "(" + logins[i] + ")");
         }
     }
     
