@@ -22,37 +22,6 @@ Aplicação de console desenvolvida em C# para cadastro, consulta, remoção e a
 - [ ] Remover usuários
 - [ ] Login com usuário e senha
 
----
-
-## Tecnologias
-
-| Tecnologia | Utilização |
-|:---|:---|
-| C# | Linguagem principal |
-| .NET | Plataforma de desenvolvimento |
-
----
-
-## Como executar
-
-Clone o repositório:
-
-```bash
-git clone URL_DO_REPOSITORIO
-```
-
-Entre na pasta do projeto e execute:
-
-```bash
-cd MeuSistema
-dotnet run
-```
-
----
-
-<div align="center">
-
-**Desenvolvido por SEU NOME**
 
 *C# • .NET • Console Application*
 
