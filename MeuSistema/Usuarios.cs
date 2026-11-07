@@ -21,7 +21,7 @@ class Usuarios
         }
         else if (logins.Contains(login))
         {
-            Console.WriteLine ("Esse usuário já existe! ");
+            Console.WriteLine("Esse usuário já existe! ");
         }
         else
         {
@@ -34,35 +34,51 @@ class Usuarios
 
     public static void Listar()
     {
-        if ( nomes.Count == 0 )
+        if (nomes.Count == 0)
         {
             Console.WriteLine("nenhum usuário cadastrado. ");
             return;
         }
         for (int i = 0; i < nomes.Count; i++)
         {
-            Console.WriteLine ( (i + 1) + ", " + nomes[i] + "(" + logins[i] + ")");
+            Console.WriteLine((i + 1) + ", " + nomes[i] + "(" + logins[i] + ")");
         }
     }
+
     public static void Buscar()
     {
         Console.Write(" Buscar por nome: ");
         string termo = Console.ReadLine().ToLower();
         bool encontrado = false;
 
-        for (int i = 0; 1 < nomes.Count; i++ )
+        for (int i = 0; 1 < nomes.Count; i++)
         {
             if (nomes[i].ToLower().Contains(termo))
             {
                 Console.WriteLine(nomes[i] + " (" + logins[i] + ")");
                 encontrado = true;
             }
-            
         }
         if (encontrado == false)
-            {
-                Console.WriteLine(" usuario nao cadastrado");
-            }
+        {
+            Console.WriteLine(" usuario nao cadastrado");
+        }
     }
-    
+    public static void remover()
+    {
+        Console.Write("Usuário a remover ");
+        string login = Console. ReadLine();
+        int i = login.IndexOf(login);
+
+        if ( i == -1)
+        {
+            Console.WriteLine("Usuários não encontrados ");
+            return;
+        }
+        nomes.RemoveAt(i);
+        logins.RemoveAt(i);
+        senhas.RemoveAt(i);
+        Console.WriteLine("Usuários removidos ");
+
+    }
 }
