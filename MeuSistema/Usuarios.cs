@@ -1,3 +1,6 @@
+using System.Reflection.Metadata;
+using System.Runtime.InteropServices.Marshalling;
+
 class Usuarios
 {
     public static List<string> nomes = new List<string>();
@@ -45,14 +48,21 @@ class Usuarios
     {
         Console.Write(" Buscar por nome: ");
         string termo = Console.ReadLine().ToLower();
+        bool encontrado = false;
 
         for (int i = 0; 1 < nomes.Count; i++ )
         {
             if (nomes[i].ToLower().Contains(termo))
             {
                 Console.WriteLine(nomes[i] + " (" + logins[i] + ")");
+                encontrado = true;
             }
+            
         }
+        if (encontrado == false)
+            {
+                Console.WriteLine(" usuario nao cadastrado");
+            }
     }
     
 }
